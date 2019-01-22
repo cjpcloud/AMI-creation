@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: dev
   sudo: yes
   tasks:
     - name: ami creation through ec2
