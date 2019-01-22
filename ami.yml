@@ -6,7 +6,7 @@
       ec2_ami:
         instance_id: i-03d1c57146c1859eb
         wait: yes
-        name: newtest
+        name: adulami
         tags:
           Name: abdulami
           Service: TestService
