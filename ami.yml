@@ -4,6 +4,7 @@
     - name: ami creation through ec2
       ec2_ami:
         instance_id: i-03d1c57146c1859eb
+        region: us-west-1
         wait: yes
         name: adulami
         tags:
